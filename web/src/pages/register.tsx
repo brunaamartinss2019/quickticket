@@ -13,7 +13,7 @@ function Register() {
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault()
         try {
-            await axios.post('http://localhost:3000/api/auth/register', {
+            await axios.post('http://localhost:4000/api/auth/register', {
                 name,
                 email,
                 password
